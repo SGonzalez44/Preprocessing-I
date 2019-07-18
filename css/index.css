@@ -135,10 +135,13 @@ table {
   height: 100%;
 }
 * body {
-  margin: 5%;
   width: 800px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 * body footer {
+  margin-top: 2rem;
+  border-radius: 0.5rem;
   background-color: lightgrey;
   padding: 2rem;
   display: flex;
@@ -188,6 +191,7 @@ h3 {
   margin-bottom: 0.5rem;
 }
 .MiddleContent .box {
+  padding-right: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 50%;
