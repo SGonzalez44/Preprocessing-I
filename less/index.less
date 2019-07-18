@@ -50,19 +50,29 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
-}
+	box-sizing: border-box;
+	
 
 html, body {
-	margin: 2rem;
-    height: 100%;
+	height: 100%;
 }
-
+body{
+	margin:5%;
+	width:800px;
+	footer{
+		
+		background-color: lightgrey;
+		padding:2rem;
+		display:flex;
+		justify-content: center;
+	}
+}
 
 header{
 	nav{
 		display:flex;
 		justify-content: flex-end;
+	}
 		a{
 			margin:1rem;
 			color:black;
@@ -70,8 +80,50 @@ header{
 }
 }
 }
-div[MainContent]{
-
-	
-	background:red;
+h1{
+	font-size: 2.2rem;
 }
+h2{
+	font-size:1.8rem;
+}
+h3{
+	font-size:1.3rem;
+}
+.MainContent{
+	padding:1.5rem;
+	background-color: lightgrey;
+	h1, h3, p, button, img{
+		padding:1.2rem;
+	}
+	button{
+		font-size:1.2rem;
+		background-color: grey;
+		color:white;
+		padding:1rem;
+		border-radius: .6rem;
+	}
+}
+.MiddleContent{
+	display:flex;
+	h2{
+		margin-top: .5rem;
+	margin-bottom: .5rem;;
+	}
+.box{
+	
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width:50%;
+	a{
+		text-decoration: none;
+		color:black;
+	}
+}
+	}
+    th{
+		padding:.25rem;
+		text-align: left;
+	}
+	@gr:lightgrey;
+	
+	
